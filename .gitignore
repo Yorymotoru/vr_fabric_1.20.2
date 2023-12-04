@@ -1,2 +1,5 @@
+.fabric
 logs
 world
+config/Geyser-Fabric/cache
+config/Geyser-Fabric/locales
