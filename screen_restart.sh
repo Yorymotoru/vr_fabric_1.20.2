@@ -1,5 +1,7 @@
 #!/bin/sh
-screen -x mc
+# screen -x mc
+screen -S mc -X stuff ""
+screen -S mc -X eval "stuff \015"
 screen -S mc -X stuff "say Server restarting in 1 minute"
 screen -S mc -X eval "stuff \015"
 sleep 30

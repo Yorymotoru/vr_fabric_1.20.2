@@ -225,4 +225,6 @@ use-direct-connection: true
 # This requires use-direct-connection to be true.
 disable-compression: true
 
+username-prefix: "[be]"
+
 config-version: 4
